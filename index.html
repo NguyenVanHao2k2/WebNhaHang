@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/js/main.js">
+    <title>Web Nhà Hàng</title>
+</head>
+
+<body>
+    <section class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i> Restaurant</a>
+        <nav class="navbar">
+            <a href="#home">Trang chủ</a>
+            <a href="#about">Thông tin</a>
+            <a href="#meal">Bữa ăn</a>
+            <a href="#gallery">Bộ sưu tập</a>
+            <a href="#menu">Thực đơn</a>
+            <a href="#order">Đặt hàng</a>
+            <a href="#blog">Blogs</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Chào mừng <br> đến với <br> Nhà hàng của chúng tôi</h3>
+            <a href="#" class="btn">
+                Đặt ngay
+            </a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">Thông tin về chúng tôi</h1>
+        <div class="row">
+            <div class="content">
+                <h3>Thứ gì là cho nhà hàng của chúng tôi trở nên đặc biệt?</h3>
+                <i>Chúng tôi đã có hơn 15 năm kinh nghiệm!</i>
+                <p>Việt Nam chúng ta được biết đến với nền ẩm thực cực kì đa dạng và phong phú. Vì vậy, hầu hết mọi du
+                    khách
+                    khi đến với Việt Nam đều không thể nào quên được những món ăn giản dị, dân giã mang đậm bản sắc của
+                    người Việt.</p>
+            </div>
+            <div class="image">
+                <img src="./assets/img/about-img.png" alt="Nothing">
+            </div>
+        </div>
+    </section>
+    <section class="meal" id="meal">
+        <h1 class="heading">
+            Bữa ăn hằng ngày
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/img/meal-1.jpg" alt="Nothing">
+                <div class="content">
+                    <h3>Canh súp Cherry</h3>
+                    <p>Canh súp Cherry thơm ngon mời bạn ăn nha. Tôi đây không chờ bạn nữa giờ tôi ăn liền!</p>
+                    <span class="price">180.000đ</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/img/meal-2.jpg" alt="Nothing">
+                <div class="content">
+                    <h3>Gà chiên giòn tỏi ớt</h3>
+                    <p>Thơm ngon giòn tan trong miệng ngon hơn khi ăn với mấy em gái!</p>
+                    <span class="price">200.000đ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">Thư viện ảnh</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/img/gallery-1.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-2.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-3.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-4.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-5.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-6.jpg" alt="Nothing">
+            </div>
+            <!-- <div class="box">
+                <img src="./assets/img/gallery-7.jpg" alt="Nothing">
+            </div>
+            <div class="box">
+                <img src="./assets/img/gallery-8.jpg" alt="Nothing">
+            </div> -->
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1 class="heading">Thực đơn của chúng tôi</h1>
+        <div class="box-container">
+            <div class="box">
+                <h3 class="main">Đầu bếp chính</h3>
+                <p class="para">
+                    Ăn được, uống được là phúc. Với nhiều người được ăn món mình thích, uống nước mà mình yêu là điều
+                    tuyệt nhất với họ. Họ luôn lạc quan suy nghĩ rằng: "đâu biết ngày mai ra sao mà chúng ta phải đau
+                    khổ, làm điều mà mình không thích".
+                </p>
+                <div class="box">
+                    <h3 class="starter">Dương Huy Khải <span>30/07/2023</span></h3>
+                    <p class="desc">Dương Huy Khải sinh ra và lớn lên tại vùng biển Nha Trang nhưng quá trình học tập và
+                        thành danh
+                        của ông đều ở nước ngoài. Ông từng chia sẻ rằng ước muốn của mình là được đóng góp một phần công
+                        sức cho quê nhà như giúp đỡ các trường đào tạo nghề Đầu bếp. Theo quan niệm của ông, nghệ thuật
+                        ẩm thực là không biên giới, nó là “con đường” có thể giúp những người xa lạ đến gần nhau và yêu
+                        mến nhau hơn.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Michael Bảo Huỳnh <span>30/07/2023</span></h3>
+                    <p class="desc">Michael Bảo Huỳnh sinh năm 1968 tại TP. Hồ Chí Minh. Anh rời quê hương từ năm 1982,
+                        đi làm phụ
+                        bếp, công tác trong ngành kiến trúc được 10 năm, đến năm 2001 anh rẽ hướng sang mở nhà hàng kinh
+                        doanh ẩm thực tại New York. Năm 2003, anh là đầu bếp người Việt đầu tiên nhận giải thưởng đầu
+                        bếp hạng nhất cùng 8 đầu bếp khác tại New York.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Luke Nguyễn <span>30/07/2023</span></h3>
+                    <p class="desc">Luke Nguyễn là đầu bếp người Úc gốc Việt khá quen thuộc với khán giả Việt nam với
+                        vai trò là ban
+                        giám khảo trong cuộc thi Masterchef Việt Nam. Anh là một người rất gần gũi và đặc biệt yêu thích
+                        ẩm thực đường phố Việt Nam. Anh cũng rất trân trọng những người nông dân chăn nuôi và trồng trọt
+                        tại quê hương Việt Nam.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Nguyễn Thị Diệu Thảo <span>30/07/2023</span></h3>
+                    <p class="desc">Có lẽ đối với khán giả màn ảnh nhỏ Việt Nam hẳn không ai còn xa lạ gì với cái tên
+                        này nữa, không
+                        ai là không biết đến cô. Cô không chỉ là đầu bếp giỏi mà còn là một chuyên gia, một nhà nghiên
+                        cứu giáo dục và ẩm thực nổi tiếng. Sinh năm 1961 tại Sài Gòn, cô may mắn được sinh ra trong cái
+                        nôi ẩm thực, một gia đình có truyền thống về ẩm thực.</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <h3 class="main-course">Các món chính</h3>
+                <p class="para">
+                    Đặc biệt, đối với những người thích thưởng thức những món ăn ngon thì tình trạng ăn vạ luôn là chủ
+                    đề được họ tìm kiếm. Nếu bạn đang cần những câu nói hay về ẩm thực, vừa đảm bảo Hot Trend, vừa hài
+                    hước, dí dỏm nhưng vẫn văn hoa, lịch thiệp thì hãy tham khảo các món ăn dưới đây nhé!
+                </p>
+                <div class="box">
+                    <h3 class="starter">Mì Quảng <span>30/07/2023</span></h3>
+                    <p class="desc">Chỉ bằng các nguyên liệu dễ tìm như: mì, đậu phộng, thịt heo cùng nước dùng độc đáo,
+                        món Mì Quảng đã ra đời và là niềm tự hào của tỉnh Quảng Nam. Món ăn này được phục vụ từ quán vỉa
+                        hè đến nhà hàng sang trọng, chiếm được cảm tình của nhiều thực khách.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Phở <span>30/07/2023</span></h3>
+                    <p class="desc">Phở được coi là món ăn tinh túy của Việt Nam. Ở đất nước chúng ta, hàng triệu bát
+                        phở được phục vụ mỗi ngày và trở thành món ăn yêu thích của người dân trong và ngoài nước. Vào
+                        tháng 9/2007, món ăn này của người Việt đã chính thức được đưa vào từ điển tiến Anh giản lược
+                        Oxford với tên gọi thân thương “Pho”.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Gỏi cuốn <span>30/07/2023</span></h3>
+                    <p class="desc">Gỏi cuốn là lựa chọn hoàn hảo cho bữa ăn nhẹ ở Việt Nam, với các nguyên liệu chính
+                        như: tôm, bún, thịt lợn, rau xanh. Sẽ có chút khó khăn khi những du khách thử món ăn này bởi
+                        chưa quen với độ dai của bánh đa cuốn bên ngoài. Nhưng khi kết hợp với nước sốt đậu phộng ngon
+                        “thần sầu” thì bánh đa sẽ mềm, dễ cắn và hương vị trở nên hoàn hảo hơn rất nhiều. Đặc biệt, với
+                        mức giá chỉ từ 5000-10.000 đồng cho 1 chiếc cuốn, mọi người ai cũng có thể thưởng thức món ăn
+                        này.</p>
+                    <div class="line"></div>
+                </div>
+                <div class="box">
+                    <h3 class="starter">Bò sốt vang<span>30/07/2023</span></h3>
+                    <p class="desc">Đây là là một trong những món ăn yêu thích vào bữa sáng hoặc bữa trưa của nhiều
+                        người. Thịt bò được đun trên lửa nhỏ, nêm nếm nước mắm, đường, nước dừa, nấu cùng hành tây, cà
+                        rốt và rau mùi tạo nên ấn tượng vô cùng khó quên. Cách phổ biến để ăn món này là xé nhỏ bánh mì
+                        rồi chấm với nước sốt đậm đà của món ăn.</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <h1 class="heading">Đặt ngay</h1>
+        <div class="row">
+            <div class="image">
+                <img src="./assets/img/contact.gif" alt="">
+            </div>
+            <form action="">
+                <h3>Vận chuyển nhanh</h3>
+                <div class="inputBox">
+                    <span>Họ và tên</span>
+                    <input type="text" value="" placeholder="Nhập tên của bạn">
+                </div>
+                <div class="inputBox">
+                    <span>Tên món</span>
+                    <input type="text" value="" placeholder="Tên món ăn">
+                </div>
+                <div class="inputBox">
+                    <span>Số lượng</span>
+                    <input type="text" value="" placeholder="Số lượng">
+                </div>
+                <div class="inputBox">
+                    <span>Số điện thoại liên hệ</span>
+                    <input type="text" value="" placeholder="Nhập số điện thoại của bạn">
+                </div>
+                <div class="inputBox">
+                    <span>Địa chỉ</span>
+                    <textarea name="" placeholder="Nhập địa chỉ giao hàng" cols="10" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Đặt hàng" class="btn">
+            </form>
+        </div>
+    </section>
+    <section id="blogs" class="blogs">
+        <h1 class="heading">Danh sách các món của nhà hàng</h1>
+        <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/mi-quang.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i>by Nguyen Van Hao</a>
+                        </div>
+                        <a href="#" class="title">Mì Quảng</a>
+                        <p>Chỉ bằng các nguyên liệu dễ tìm như: mì, đậu phộng, thịt heo cùng nước dùng độc đáo, món Mì
+                            Quảng đã ra đời và là niềm tự hào của tỉnh Quảng Nam. Món ăn này được phục vụ từ quán vỉa hè
+                            đến nhà hàng sang trọng, chiếm được cảm tình của nhiều thực khách.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/pho.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>05/08/2023</a>
+                            <a href="#"><i class="fas fa-calendar"></i>by Nguyen Van Hao</a>
+                        </div>
+                        <a href="#" class="title">Phở</a>
+                        <p>Phở được coi là món ăn tinh túy của Việt Nam. Ở đất nước chúng ta, hàng triệu bát phở được
+                            phục vụ mỗi ngày và trở thành món ăn yêu thích của người dân trong và ngoài nước. Vào tháng
+                            9/2007, món ăn này của người Việt đã chính thức được đưa vào từ điển tiến Anh giản lược
+                            Oxford với tên gọi thân thương “Pho”.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/goi-cuon.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Gỏi cuốn</a>
+                        <p>Gỏi cuốn là lựa chọn hoàn hảo cho bữa ăn nhẹ ở Việt Nam, với các nguyên liệu chính như: tôm,
+                            bún, thịt lợn, rau xanh. Sẽ có chút khó khăn khi những du khách thử món ăn này bởi chưa quen
+                            với độ dai của bánh đa cuốn bên ngoài. Nhưng khi kết hợp với nước sốt đậu phộng ngon “thần
+                            sầu” thì bánh đa sẽ mềm, dễ cắn và hương vị trở nên hoàn hảo hơn rất nhiều. Đặc biệt, với
+                            mức giá chỉ từ 5000-10.000 đồng cho 1 chiếc cuốn, mọi người ai cũng có thể thưởng thức món
+                            ăn này.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/bo-sot-vang.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Bò sốt vang</a>
+                        <p>Đây là là một trong những món ăn yêu thích vào bữa sáng hoặc bữa trưa của nhiều người. Thịt
+                            bò được đun trên lửa nhỏ, nêm nếm nước mắm, đường, nước dừa, nấu cùng hành tây, cà rốt và
+                            rau mùi tạo nên ấn tượng vô cùng khó quên. Cách phổ biến để ăn món này là xé nhỏ bánh mì rồi
+                            chấm với nước sốt đậm đà của món ăn.
+                        </p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/bun-cha.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Bún chả</a>
+                        <p>Bún chả là món ngon nổi tiếng của thủ đô Hà Nội. Thành phần chính là bún, chả nướng, nước mắm
+                            pha và các loại rau thơm. Chính vì sự đơn giản, không hề cầu kì này mà món ăn lại ngon đặc
+                            biệt và được nhiều du khách nước ngoài yêu thích.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/nem-gan.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Nem rán/ Chả giò</a>
+                        <p>Cũng được làm từ chiếc bánh tráng, cuốn bên trong là thịt lợn băm, rau và trứng, sau khi rán
+                            vàng ươm sẽ tạo nên thành phẩm vô cùng chất lượng. Nem rán hay còn được gọi là chả giò vô
+                            cùng nổi tiếng ở Việt Nam và có bán ở nhiều nhà hàng trên thế giới.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/com-tam.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Cơm tấm</a>
+                        <p>Được nấu từ những hạt gạo vỡ, cơm tấm trở thành món ăn đáng thử khi du khách ghé thăm Sài
+                            Gòn. Đây là món ăn được hàng triệu người lựa chọn bởi nó đầy đủ chất dinh dưỡng với thịt và
+                            rau xanh.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/bun-bo-hue.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Bún bò Huế</a>
+                        <p>Trong vô vàn món ăn ngon ở Huế, bún bò đã trở thành món ăn được nhiều thực khách yêu thích.
+                            Trong một bán bún có đủ cả 4 vị chua, cay, mặn, ngọt. Nước dùng của bún được ninh bằng xương
+                            bò, sả và nước mắm nêm với công thức gia truyền. Ớt được thêm vào bún nhiều để tạo vị cay vì
+                            người xứ Huế ăn cay rất tốt.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/banh-mi.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Bánh mì</a>
+                        <p>Món ăn đường phố này đã xuất hiện rất nhiều trên bản đồ ẩm thực thế giới khiến bất cứ du
+                            khách nào ghé thăm Việt Nam đều không thể bỏ lỡ. Hàng triệu ổ bánh mì được nướng mỗi ngày và
+                            được người dân dùng chủ yếu trong bữa sáng. Món ăn này vừa rẻ vừa ngon, là một khởi đầu
+                            tuyệt vời cho ngày mới.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/ca-ho-to.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Cá kho tộ</a>
+                        <p>Thật tuyệt vời khi những khúc cá vàng ươm đẹp mắt lại được kho trong chiếc nồi đất giản dị.
+                            Với công thức ướp thịt và kho qua nhiều lửa, món ăn ăn cùng với cơm trắng này được phục vụ ở
+                            rất nhiều nhà hàng khiến du khách phải sững sờ vì cách chế biến tạo nên độ mềm thơm và ngọt
+                            thịt của cá.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/banh-xeo.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i> 05/08/2023</a>
+                            <a href="#"><i class="fas fa-user"></i> by Nguyen Van Hao 2k2</a>
+                        </div>
+                        <a href="#" class="title">Bánh xèo</a>
+                        <p>Nhiều du khách nhầm tưởng rằng vỏ ngoài của bánh xèo được làm bằng trứng. Thực chất, nó được
+                            làm từ bột gạo và nghệ. Cùng với nhân tôm thịt, cuốn thêm xà lách và rau củ ăn cùng, chấm
+                            vào bát nước mắm chua ngọt và thưởng thức, cảm giác ngon “bùng nổ” sẽ diễn ra ngay trong
+                            miệng của bạn.</p>
+                        <a href="" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <h3>Địa chỉ</h3>
+                <p>Cần Thơ Miền Nam Việt Nam</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <h3>Đường dây nóng</h3>
+                <p>Email: tunyhao@gmail.com</p>
+                <p>Email: nguyenvanhao6098@gmail.com</p>
+                <p>Email: hao201166@.nctu.edu.vn</p>
+                <p>Số điện thoại: 0939056098</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <h3>Thời gian nhà hàng hoạt động </h3>
+                <p>Cả tuần (6:00 - 24:00)</p>
+            </div>
+        </div>
+        <div class="creadit"><i>Bản quyền thuộc <span>Nguyễn Văn Hào</span> | 07/08/2023</i></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
